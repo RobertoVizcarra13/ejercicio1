@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    max-width: 1140px;
+    background-color: #ffffff;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+header, nav, .seccion01, footer{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+}
+
+.seccion01 .contenido{
+    float: left;
+    width: 100%;
+}
+
+.seccion01 .contenido .arriba{
+    padding: 20px 10px;
+}
+.seccion01 .contenido .abajo{
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
+}
+
+.seccion01 .abajo .box{
+    float: left;
+    width: 100%;
+}
+.box{
+    background-color: gray;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 60px 15px;
+}
